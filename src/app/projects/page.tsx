@@ -1,4 +1,3 @@
-import Projects from "@/pages/Projects";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
