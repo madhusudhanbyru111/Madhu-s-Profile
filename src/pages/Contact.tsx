@@ -307,7 +307,7 @@ const Contact = () => {
                 className="w-full px-6 py-3 bg-white text-black rounded-lg font-medium hover:bg-gray-100 transition-colors flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed text-sm sm:text-base"
               >
                 {isSubmitting ? (
-                  "Sending Please Wait ..."
+                  "Sending Please Wait ...."
                 ) : (
                   <>
                     Send Message
