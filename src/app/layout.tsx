@@ -19,12 +19,8 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   // Basic metadata
-  title: {
-    default: "Madhusudhan Byru - AI/ML Engineer | Machine Learning Expert",
-    template: "%s | Madhusudhan Byru",
-  },
-  description:
-    "Madhusudhan Byru - AI/ML Engineer with 3+ years of experience in production-grade ML solutions, risk analytics, fraud detection, and GenAI. Proficient in Python, PyTorch, AWS, and scalable ML pipelines.",
+  title: "Madhusudhan Byru",
+  description: "Madhusudhan Byru",
 
   // Extended keywords for better SEO
   keywords: [
@@ -218,10 +214,42 @@ export default function RootLayout({
     <html lang="en" className={montserrat.className}>
       <head>
         {/* Favicons */}
-        <link rel="shortcut icon" href="/nextjs.png" type="image/x-icon" />
-        <link rel="apple-touch-icon" href="/nextjs.png" />
-        <link rel="icon" type="image/png" sizes="192x192" href="/nextjs.png" />
-        <link rel="icon" type="image/png" sizes="512x512" href="/nextjs.png" />
+        <link
+          rel="shortcut icon"
+          href="/profile/icon.png"
+          type="image/x-icon"
+        />
+        <link rel="apple-touch-icon" href="/profile/icon.png" />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="64x64"
+          href="/profile/icon.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="128x128"
+          href="/profile/icon.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="192x192"
+          href="/profile/icon.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="256x256"
+          href="/profile/icon.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="512x512"
+          href="/profile/icon.png"
+        />
         {/* Manifest */}
         <link rel="manifest" href="/manifest.json" />
         {/* Structured Data (JSON-LD) */}
