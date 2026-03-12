@@ -95,7 +95,7 @@ export default function ContactBubble() {
             className="bg-blue-500 text-white px-5 py-2 rounded-full shadow-lg font-semibold text-base select-none flex items-center"
           >
             <span className="whitespace-nowrap animate-marquee-ticker">
-              You can contact me here
+              Contact Me Here...
             </span>
           </motion.div>
         )}
