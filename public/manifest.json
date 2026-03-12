@@ -1,0 +1,45 @@
+{
+  "name": "Madhusudhan Byru - AI/ML Engineer Portfolio",
+  "short_name": "Madhusudhan Portfolio",
+  "description": "Portfolio of Madhusudhan Byru - AI/ML Engineer specializing in machine learning, GenAI, risk analytics, fraud detection, and production-grade ML solutions. Expert in Python, PyTorch, AWS, and scalable ML pipelines.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "orientation": "portrait-primary",
+  "dir": "ltr",
+  "lang": "en-US",
+  "categories": [
+    "portfolio",
+    "developer",
+    "technology",
+    "education",
+    "business"
+  ],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "View Projects",
+      "short_name": "Projects",
+      "description": "Browse my portfolio projects",
+      "url": "/projects"
+    },
+    {
+      "name": "Contact Me",
+      "short_name": "Contact",
+      "description": "Get in touch with me",
+      "url": "/contact"
+    },
+    {
+      "name": "View Skills",
+      "short_name": "Skills",
+      "description": "See my technical skills",
+      "url": "/skills"
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "iarc_rating_id": "",
+  "offline_enabled": true
+}

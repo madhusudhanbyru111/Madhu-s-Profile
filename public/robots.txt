@@ -1,0 +1,42 @@
+# robots.txt for https://madhusudhanbyru.vercel.app/
+# Optimized for maximum SEO crawling
+
+# Allow all search engines to crawl everything
+User-agent: *
+Allow: /
+
+# Specifically allow important crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+# Disallow crawling of certain file types and directories
+Disallow: /*.json$
+Disallow: /*.xml$
+Disallow: /api/
+Disallow: /_next/
+Disallow: /node_modules/
+
+# Allow crawling of PDF files (CV, certificates, etc.)
+Allow: /files/*.pdf$
+Allow: /*.pdf$
+
+# Sitemap location
+Sitemap: https://madhusudhanbyru.vercel.app/sitemap.xml
+
+# Crawl delay to be respectful (optional, can be removed for faster crawling)
+# Crawl-delay: 1
